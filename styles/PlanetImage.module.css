@@ -19,5 +19,16 @@
 .img {
     width: 90%;
     height: auto;
+}
+
+.hoverContainer {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+}
+
+.imgHover {
+    width: 165px;
+    height: auto;
     
 }
