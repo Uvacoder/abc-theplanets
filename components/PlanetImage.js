@@ -1,8 +1,6 @@
 import styles from '../styles/PlanetImage.module.css'
-import data from '../data/data.json'
 import { Context } from '../context/Context'
 import { useContext } from 'react'
-import Image from 'next'
 
 export default function PlanetImage() {
 

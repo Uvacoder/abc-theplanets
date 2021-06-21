@@ -1,6 +1,6 @@
 
 .container {
-    background-color: red;
+    border: 1px solid white;
     width: 50%;
     height: 70%;
     display: flex;
@@ -10,11 +10,14 @@
 }
 
 .imageFlexContainer {
-    border: 1px solid gold; 
+    border: 1px solid gold;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 }
 
 .img {
-    max-width: 100%;
+    width: 90%;
     height: auto;
     
 }
