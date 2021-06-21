@@ -6,10 +6,10 @@ import { useContext } from 'react'
 
 export default function Header() {
 
-    const {handleNavClick} = useContext(Context)
+    const {handleNavClick, planets} = useContext(Context)
 
     
-    const navPlanets = data.map((planet, index) => (
+    const navPlanets = planets.map((planet, index) => (
         <li key={index} 
             className={styles.li}
             onClick={(e) => handleNavClick(planet)}
