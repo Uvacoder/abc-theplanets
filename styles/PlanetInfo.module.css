@@ -13,11 +13,28 @@
 .infoTextContainer {
     border: 1px solid red;
     width: 50%;
+}
 
+.infoTextContainerH1 {
+    color: white;
+}
+
+.infoTextContainerP {
+    color: white;
+}
+
+.infoTextContainerH3 {
+    color: #838391;
+    font-weight: 100;
+}
+
+.infoTextContainerSpan {
+    color: #838391;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 .buttonContainer {
-    border: 1px solid green;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

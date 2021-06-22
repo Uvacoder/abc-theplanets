@@ -3,8 +3,10 @@
 /* font-family: 'Antonio', sans-serif;
 font-family: 'Spartan', sans-serif; */
 .container {
+    z-index: 2;
+    position: absolute;
     border-bottom: 1px solid rgb(56,56,79);
-    background-color: rgb(7,7,36);
+    background-color: transparent;
     width: 100%;
     height: 85px;
     color: red;

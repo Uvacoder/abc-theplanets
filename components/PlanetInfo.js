@@ -13,9 +13,9 @@ export default function PlanetImage() {
     return (
         <div className={styles.container}>
             <div className={styles.infoTextContainer}>
-                <h1>{currentPlanet.name}</h1>
-                <p>Much of the Venusian surface appears to have been shaped by volcanic activity. Venus has several times as many volcanoes as Earth, and it has 167 large volcanoes that are over 100 km (60 mi) across. The only volcanic complex of this size on Earth is the Big Island of Hawaii.</p>
-                <h3>Source: Wikipedia <a href="https://en.wikipedia.org/wiki/Venus#Surface_geology"></a></h3>
+                <h1 className={styles.infoTextContainerH1}>{currentPlanet.name}</h1>
+                <p className={styles.infoTextContainerP}>Much of the Venusian surface appears to have been shaped by volcanic activity. Venus has several times as many volcanoes as Earth, and it has 167 large volcanoes that are over 100 km (60 mi) across. The only volcanic complex of this size on Earth is the Big Island of Hawaii.</p>
+                <h3 className={styles.infoTextContainerH3}>Source: <span className={styles.infoTextContainerSpan}>Wikipedia</span><a href="https://en.wikipedia.org/wiki/Venus#Surface_geology"></a></h3>
             </div>
             <div className={styles.buttonContainer}>
                 <button className={styles.button} onClick={handleOverviewClick} ><h4><span className={styles.buttonTextSpan}>01 </span>OVERVIEW</h4></button>
