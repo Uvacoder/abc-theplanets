@@ -29,8 +29,15 @@
     width: 350px;
     height: 48px;
     text-align: left;
+    background-color: transparent;
+    border: 1px solid rgb(56,56,79);
+    color: white;
+}
+
+.button:hover {
+    background-color: #838391;
 }
 
 .buttonTextSpan {
-    color: red;
+    color: #838391;
 }

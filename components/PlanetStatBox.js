@@ -12,20 +12,20 @@ export default function PlanetStatBox() {
         <div className={styles.container}>
             <div className={styles.flexContainer}>
                 <div className={styles.statBox}>
-                    <span>ROTATION TIME</span>
-                    <h2>{currentPlanet.rotation}</h2>
+                    <span className={styles.statBoxSpan}>ROTATION TIME</span>
+                    <h2 className={styles.statBoxH2}>{currentPlanet.rotation}</h2>
                 </div>
                 <div className={styles.statBox}>
-                    <span>REVOLUTION TIME</span>
-                    <h2>{currentPlanet.revolution}</h2>
+                    <span className={styles.statBoxSpan}>REVOLUTION TIME</span>
+                    <h2 className={styles.statBoxH2}>{currentPlanet.revolution}</h2>
                 </div>
                 <div className={styles.statBox}>
-                    <span>RADIUS</span>
-                    <h2>{currentPlanet.radius}</h2>
+                    <span className={styles.statBoxSpan}>RADIUS</span>
+                    <h2 className={styles.statBoxH2}>{currentPlanet.radius}</h2>
                 </div>
                 <div className={styles.statBox}>
-                    <span>AVERAGE TEMP</span>
-                    <h2>{currentPlanet.temperature}</h2>
+                    <span className={styles.statBoxSpan}>AVERAGE TEMP</span>
+                    <h2 className={styles.statBoxH2}>{currentPlanet.temperature}</h2>
                 </div>
             </div>
         </div>

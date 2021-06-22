@@ -8,6 +8,8 @@ export default function PlanetImage() {
 
     
 
+    
+
     return (
         <div className={styles.container}>
             <div className={styles.infoTextContainer}>
@@ -16,7 +18,7 @@ export default function PlanetImage() {
                 <h3>Source: Wikipedia <a href="https://en.wikipedia.org/wiki/Venus#Surface_geology"></a></h3>
             </div>
             <div className={styles.buttonContainer}>
-                <button className={styles.button} onClick={handleOverviewClick}><h4><span className={styles.buttonTextSpan}>01 </span>OVERVIEW</h4></button>
+                <button className={styles.button} onClick={handleOverviewClick} ><h4><span className={styles.buttonTextSpan}>01 </span>OVERVIEW</h4></button>
                 <button className={styles.button} onClick={handleInternalStructureClick}><h4><span className={styles.buttonTextSpan}>02 </span>INTERNAL STRUCTURE</h4></button>
                 <button className={styles.button} onClick={handleSurfaceGeologyClick}><h4><span className={styles.buttonTextSpan}>03 </span>SURFACE GEOLOGY</h4></button>
             </div>

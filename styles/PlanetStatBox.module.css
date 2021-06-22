@@ -18,3 +18,11 @@
     height: 125px;
     border: 1px solid rgb(56,56,79);
 }
+
+.statBoxSpan {
+    color: #838391;
+}
+
+.statBoxH2 {
+    color: white;
+}
