@@ -9,6 +9,9 @@ export default function PlanetImage() {
     const planetLayerText = currentLayer === "internal" ? currentPlanet.structure.content : 
                             currentLayer === "surface" ? currentPlanet.geology.content : currentPlanet.overview.content
 
+    const planetLayerLink = currentLayer === "internal" ? currentPlanet.structure.source : 
+                            currentLayer === "surface" ? currentPlanet.geology.source : currentPlanet.overview.source                        
+
     return (
         <div className={styles.container}>
             <div className={styles.infoTextContainer}>
@@ -16,7 +19,10 @@ export default function PlanetImage() {
                 <p className={styles.infoTextContainerP}>
                     { planetLayerText }
                 </p>
-                <h3 className={styles.infoTextContainerH3}>Source: <span className={styles.infoTextContainerSpan}>Wikipedia</span><a href="https://en.wikipedia.org/wiki/Venus#Surface_geology"><svg className={styles.svg} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm1 15.889v-2.223s-3.78-.114-7 3.333c1.513-6.587 7-7.778 7-7.778v-2.221l5 4.425-5 4.464z"/></svg></a></h3>
+                <h3 className={styles.infoTextContainerH3}>Source: 
+                    <span className={styles.infoTextContainerSpan}>Wikipedia</span>
+                    <a href={planetLayerLink} target="_blank" rel="noopener noreferrer">
+                    <svg className={styles.svg} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm1 15.889v-2.223s-3.78-.114-7 3.333c1.513-6.587 7-7.778 7-7.778v-2.221l5 4.425-5 4.464z"/></svg></a></h3>
             </div>
             <div className={styles.buttonContainer}>
                 <button 
