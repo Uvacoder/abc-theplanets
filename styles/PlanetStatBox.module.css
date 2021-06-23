@@ -6,7 +6,7 @@
 
 .flexContainer {
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
     height: 175px;
     display: flex;
     justify-content: space-evenly;

@@ -15,6 +15,7 @@ font-family: 'Spartan', sans-serif; */
 .infoTextContainer {
     border: 1px solid red;
     width: 50%;
+    margin-left: 1rem;
 }
 
 .infoTextContainerH1 {
@@ -26,6 +27,10 @@ font-family: 'Spartan', sans-serif; */
 
 .infoTextContainerP {
     color: white;
+    margin-top: -1.5rem;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 2;
 }
 
 .infoTextContainerH3 {
@@ -43,13 +48,16 @@ font-family: 'Spartan', sans-serif; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 350px;
+    width: auto;
     height: 176px;
+    border: 1px solid red;
+    margin-left: 1rem;
 }
 
 .button {
     width: 350px;
     height: 48px;
+    padding: 0 2rem;
     text-align: left;
     background-color: transparent;
     border: 1px solid rgb(56,56,79);
