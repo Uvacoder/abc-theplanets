@@ -21,7 +21,7 @@ font-family: 'Spartan', sans-serif; */
 .infoTextContainerH1 {
     color: white;
     font-family: 'Antonio', sans-serif;
-    font-size: 80px;
+    font-size: 4.5rem;
     text-transform: uppercase;
 }
 
@@ -30,12 +30,14 @@ font-family: 'Spartan', sans-serif; */
     margin-top: -1.5rem;
     font-weight: 200;
     font-size: 14px;
-    line-height: 2;
+    line-height: 1.75;
 }
 
 .infoTextContainerH3 {
     color: #838391;
     font-weight: 100;
+    font-size: 14px;
+    padding: 1rem 0;
 }
 
 .infoTextContainerSpan {

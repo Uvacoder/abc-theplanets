@@ -6,10 +6,9 @@
     background-image: url('../public/assets/background-stars.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 .flexContainer {
     display: flex;
-    height: auto;
+    flex-direction: row;
 }
