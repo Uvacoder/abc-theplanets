@@ -3,7 +3,6 @@
     background-color: rgb(7,7,36);
     width: 100%;
     padding-top: 85px;
-    color: red;
     background-image: url('../public/assets/background-stars.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,7 +10,6 @@
 }
 
 .flexContainer {
-    border: 1px solid gold;
     display: flex;
     height: auto;
 }

@@ -1,4 +1,6 @@
 
+/* font-family: 'Antonio', sans-serif;
+font-family: 'Spartan', sans-serif; */
 
 .container {
     border: 1px solid white;
@@ -17,6 +19,9 @@
 
 .infoTextContainerH1 {
     color: white;
+    font-family: 'Antonio', sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
 }
 
 .infoTextContainerP {

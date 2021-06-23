@@ -1,16 +1,13 @@
 
 .container {
-    border: 1px solid white;
     width: 50%;
     height: 65vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .imageFlexContainer {
-    border: 1px solid gold;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -30,5 +27,4 @@
 .imgHover {
     width: 165px;
     height: auto;
-    
 }
