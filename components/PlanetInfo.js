@@ -4,7 +4,7 @@ import { useContext } from 'react'
 
 export default function PlanetImage() {
 
-    const {currentPlanet, handleOverviewClick, handleInternalStructureClick, handleSurfaceGeologyClick} = useContext(Context)
+    const {currentPlanet, handleOverviewClick, handleInternalStructureClick, handleSurfaceGeologyClick, currentLayer} = useContext(Context)
 
     
 
@@ -18,9 +18,23 @@ export default function PlanetImage() {
                 <h3 className={styles.infoTextContainerH3}>Source: <span className={styles.infoTextContainerSpan}>Wikipedia</span><a href="https://en.wikipedia.org/wiki/Venus#Surface_geology"></a></h3>
             </div>
             <div className={styles.buttonContainer}>
-                <button className={styles.button} onClick={handleOverviewClick} ><h4><span className={styles.buttonTextSpan}>01 </span>OVERVIEW</h4></button>
-                <button className={styles.button} onClick={handleInternalStructureClick}><h4><span className={styles.buttonTextSpan}>02 </span>INTERNAL STRUCTURE</h4></button>
-                <button className={styles.button} onClick={handleSurfaceGeologyClick}><h4><span className={styles.buttonTextSpan}>03 </span>SURFACE GEOLOGY</h4></button>
+                <button 
+                    className={styles.button} 
+                    onClick={handleOverviewClick} 
+                    style={{backgroundColor: currentLayer === "overview" ? currentPlanet.highlight : ''}}>
+                        <h4><span className={styles.buttonTextSpan}>01 </span>OVERVIEW</h4></button>
+                <button 
+                    className={styles.button} 
+                    onClick={handleInternalStructureClick}
+                    style={{backgroundColor: currentLayer === "internal" ? currentPlanet.highlight : ''}}>
+                    
+                        <h4><span className={styles.buttonTextSpan}>02 </span>INTERNAL STRUCTURE</h4></button>
+                <button 
+                    className={styles.button} 
+                    onClick={handleSurfaceGeologyClick}
+                    style={{backgroundColor: currentLayer === "surface" ? currentPlanet.highlight : ''}}>
+                    
+                        <h4><span className={styles.buttonTextSpan}>03 </span>SURFACE GEOLOGY</h4></button>
             </div>
             
             

@@ -6,7 +6,7 @@ import { useContext } from 'react'
 
 export default function Header() {
 
-    const {handleNavClick, planets} = useContext(Context)
+    const {handleNavClick, planets, currentPlanet} = useContext(Context)
 
     
     const navPlanets = planets.map((planet, index) => (
