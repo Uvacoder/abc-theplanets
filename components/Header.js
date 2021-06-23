@@ -13,6 +13,7 @@ export default function Header() {
         <li key={index} 
             className={styles.li}
             onClick={(e) => handleNavClick(planet)}
+            style={{borderTop: planet === currentPlanet ? `2px solid ${currentPlanet.highlight}` : ''}}
             >{planet.name}</li>
     ))
 

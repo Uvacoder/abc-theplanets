@@ -47,7 +47,9 @@ font-family: 'Spartan', sans-serif; */
 
 .li {
     display: inline;
-    padding: 0 1rem;
+    padding: 2rem 0rem;
+    margin: 0 1rem;
+    height: 82px;
 }
 
 .li:hover {
