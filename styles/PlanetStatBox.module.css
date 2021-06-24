@@ -96,3 +96,27 @@ font-family: 'Spartan', sans-serif; */
     }
     
 }
+
+@media screen and (max-width: 650px) {
+    .flexContainer {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem 0 2rem 0;
+    }
+
+    .statBox {
+        width: 90%;
+        margin: .5rem 0;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 .75rem;
+        height: 46px;
+    }
+
+    .statBoxH2 {
+        font-size: 1.20rem;
+        display: flex;
+        padding-top: .25rem;
+        
+    }
+}

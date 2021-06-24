@@ -50,3 +50,25 @@
     cursor: pointer;
     color: rgb(255,255,255);
 }
+
+@media screen and (max-width: 900px) {
+    .container {
+        height: 160px;
+        flex-direction: column;
+    }
+    .leftFlexContainer {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .nav {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    
+    .li {
+        margin: 0 .5rem;
+    }
+}
