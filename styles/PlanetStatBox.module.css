@@ -24,8 +24,6 @@ font-family: 'Spartan', sans-serif; */
     border: 1px solid rgb(56,56,79);
     display: flex;
     flex-direction: column;
-    
-    
 }
 
 .statBoxSpan {
@@ -45,4 +43,56 @@ font-family: 'Spartan', sans-serif; */
     text-transform: uppercase;
     font-weight: 300;
     margin-left: 1rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .flexContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .flexContainer {
+        width: 100%;
+    }
+
+    .statBox {
+        width: 200px;
+    }
+    .statBoxH2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .flexContainer {
+        width: 100%;
+    }
+
+    .statBox {
+        width: 162px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .flexContainer {
+        width: 100%;
+    }
+
+    .statBox {
+        width: 20%;
+        height: 82px;
+    }
+
+    .statBoxSpan {
+        font-size: .6rem;
+        margin-top: 1rem;
+    }
+    
+    .statBoxH2 {
+        font-size: 1.35rem;
+        margin-top: .25rem;
+    }
+    
 }

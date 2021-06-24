@@ -4,7 +4,7 @@ font-family: 'Spartan', sans-serif; */
 
 .container {
     width: 50%;
-    height: 65vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@ font-family: 'Spartan', sans-serif; */
 }
 
 .infoTextContainer {
-    width: 50%;
+    width: 350px;
     margin-left: 1rem;
 }
 
