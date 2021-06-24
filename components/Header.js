@@ -1,6 +1,4 @@
-
 import styles from '../styles/Header.module.css'
-import data from '../data/data.json'
 import { Context } from '../context/Context'
 import { useContext } from 'react'
 
@@ -8,7 +6,6 @@ export default function Header() {
 
     const {handleNavClick, planets, currentPlanet} = useContext(Context)
 
-    
     const navPlanets = planets.map((planet, index) => (
         <li key={index} 
             className={styles.li}

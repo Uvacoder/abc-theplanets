@@ -6,8 +6,6 @@ export default function PlanetStatBox() {
 
     const {currentPlanet} = useContext(Context)
 
-    
-
     return (
         <div className={styles.container}>
             <div className={styles.flexContainer}>

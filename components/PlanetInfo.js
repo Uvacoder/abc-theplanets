@@ -34,13 +34,11 @@ export default function PlanetImage() {
                     className={styles.button} 
                     onClick={handleInternalStructureClick}
                     style={{backgroundColor: currentLayer === "internal" ? currentPlanet.highlight : ''}}>
-                    
                         <h4 className={styles.buttonTextH4}><span className={styles.buttonTextSpan}>02 </span>INTERNAL STRUCTURE</h4></button>
                 <button 
                     className={styles.button} 
                     onClick={handleSurfaceGeologyClick}
                     style={{backgroundColor: currentLayer === "surface" ? currentPlanet.highlight : ''}}>
-                    
                         <h4 className={styles.buttonTextH4}><span className={styles.buttonTextSpan}>03 </span>SURFACE GEOLOGY</h4></button>
             </div>
         </div>

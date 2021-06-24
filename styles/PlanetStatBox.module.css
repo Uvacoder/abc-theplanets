@@ -23,19 +23,24 @@ font-family: 'Spartan', sans-serif; */
     border: 1px solid rgb(56,56,79);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
+    
 }
 
 .statBoxSpan {
+    margin-top: 1.5rem;
     color: #838391;
     font-family: 'Spartan', sans-serif;
     font-size: .75rem;
     margin-left: 1rem;
+    font-weight: 600;
 }
 
 .statBoxH2 {
+    margin-top: .5rem;
     color: white;
     font-family: 'Antonio', sans-serif;
+    font-size: 2.5rem;
     text-transform: uppercase;
     font-weight: 300;
     margin-left: 1rem;
