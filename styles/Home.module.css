@@ -11,5 +11,6 @@
 .flexContainer {
     display: flex;
     flex-direction: row;
-    height: auto;
+    align-items: center;
+    height: 675px;
 }

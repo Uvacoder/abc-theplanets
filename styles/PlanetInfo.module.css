@@ -3,7 +3,6 @@
 font-family: 'Spartan', sans-serif; */
 
 .container {
-    border: 1px solid white;
     width: 50%;
     height: 65vh;
     display: flex;
@@ -13,7 +12,6 @@ font-family: 'Spartan', sans-serif; */
 }
 
 .infoTextContainer {
-    border: 1px solid red;
     width: 50%;
     margin-left: 1rem;
 }
@@ -59,8 +57,7 @@ font-family: 'Spartan', sans-serif; */
     flex-direction: column;
     justify-content: space-between;
     width: auto;
-    height: 176px;
-    border: 1px solid red;
+    height: auto;
     margin-left: 1rem;
 }
 
@@ -72,6 +69,7 @@ font-family: 'Spartan', sans-serif; */
     background-color: transparent;
     border: 1px solid rgb(56,56,79);
     color: white;
+    margin: .5rem 0;
 }
 
 .button:hover {
