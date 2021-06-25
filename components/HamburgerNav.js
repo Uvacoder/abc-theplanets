@@ -7,10 +7,12 @@ export default function HamburgerNav() {
     const {handleNavClick, planets, currentPlanet, isNavOpen} = useContext(Context)
 
     return (
-            <nav className={styles.container} style={{display: isNavOpen ? "block" : 'none'}}>
-                <ul>
+        <div className={styles.container}>
+            <nav className={styles.nav} style={{display: isNavOpen ? "" : 'none'}} >
+                <ul >
 
                 </ul>
             </nav>
+        </div>   
     )
 }
