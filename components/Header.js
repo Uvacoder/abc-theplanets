@@ -4,7 +4,7 @@ import { useContext } from 'react'
 
 export default function Header() {
 
-    const {handleNavClick, planets, currentPlanet} = useContext(Context)
+    const {handleNavClick, planets, currentPlanet, handleHamburgerClick} = useContext(Context)
 
     const navPlanets = planets.map((planet, index) => (
         <li key={index} 
@@ -24,7 +24,11 @@ export default function Header() {
                     {navPlanets}
                 </ul>
             </nav>
-            <svg className={styles.svg} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+            <svg className={styles.svg} 
+                 onClick={handleHamburgerClick}
+                 xmlns="http://www.w3.org/2000/svg" 
+                 width="24" height="24" 
+                 viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
         </div>
     )
 }

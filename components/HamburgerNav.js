@@ -4,11 +4,13 @@ import { useContext } from 'react'
 
 export default function HamburgerNav() {
 
-    const {handleNavClick, planets, currentPlanet} = useContext(Context)
+    const {handleNavClick, planets, currentPlanet, isNavOpen} = useContext(Context)
 
     return (
-        <div>
+            <nav className={styles.container} style={{display: isNavOpen ? "block" : 'none'}}>
+                <ul>
 
-        </div>
+                </ul>
+            </nav>
     )
 }

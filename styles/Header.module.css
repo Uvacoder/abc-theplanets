@@ -102,4 +102,7 @@
        display: flex;
        fill: white;   
    }
+   .svg:hover {
+       cursor: pointer;
+   }
 }
