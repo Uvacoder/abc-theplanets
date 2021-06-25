@@ -51,6 +51,10 @@
     color: rgb(255,255,255);
 }
 
+.svg {
+    display: none;
+}
+
 @media screen and (max-width: 900px) {
     .container {
         height: 160px;
@@ -64,6 +68,9 @@
         width: 100%;
         margin: 0 auto;
     }
+    .ul {
+        margin: 2rem auto;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -71,4 +78,28 @@
     .li {
         margin: 0 .5rem;
     }
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        height: 68px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1.5rem;
+    }
+
+    .leftFlexContainer {
+        width: auto;
+        margin: 0 0;
+    }
+
+   .nav {
+       display: none;
+   }
+
+   .svg {
+       display: flex;
+       fill: white;   
+   }
 }
