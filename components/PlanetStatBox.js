@@ -7,7 +7,7 @@ export default function PlanetStatBox() {
     const {currentPlanet} = useContext(Context)
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container} >
             <div className={styles.flexContainer}>
                 <div className={styles.statBox}>
                     <span className={styles.statBoxSpan}>ROTATION TIME</span>

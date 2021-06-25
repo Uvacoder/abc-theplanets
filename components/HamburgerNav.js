@@ -4,10 +4,11 @@ import { useContext } from 'react'
 
 export default function HamburgerNav() {
 
-    const {handleNavClick, planets, currentPlanet, isNavOpen} = useContext(Context)
+    const {handleNavClick, planets, currentPlanet, isNavOpen, handleMobileNavTileClick} = useContext(Context)
 
     const navPlanets = planets.map((planet, index) => (
         <li key={index} 
+            onClick={() => handleMobileNavTileClick(planet)}
             className={styles.li}
             ><div className={styles.leftFlex}>
                <div className={styles.highlight} style={{backgroundColor: planet.highlight}}></div>
@@ -27,7 +28,7 @@ export default function HamburgerNav() {
         <div className={styles.container}>
             <nav className={styles.nav} style={{display: isNavOpen ? "" : 'none'}} >
                 <ul className={styles.ul} >
-                    <li>{navPlanets}</li>
+                    {navPlanets}
                 </ul>
             </nav>
         </div>   

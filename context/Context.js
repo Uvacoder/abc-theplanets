@@ -31,10 +31,15 @@ function ContextProvider({ children }) {
         setIsNavOpen(prevState => !prevState)
     }
 
+    function handleMobileNavTileClick(e) {
+        setCurrentPlanet(e)
+        handleHamburgerClick()
+    }
+
    
 
     return (
-        <Context.Provider value={{currentPlanet, setCurrentPlanet, handleNavClick, planets, handleOverviewClick, handleInternalStructureClick, handleSurfaceGeologyClick, currentLayer, handleHamburgerClick, isNavOpen}}>
+        <Context.Provider value={{currentPlanet, setCurrentPlanet, handleNavClick, planets, handleOverviewClick, handleInternalStructureClick, handleSurfaceGeologyClick, currentLayer, handleHamburgerClick, isNavOpen, handleMobileNavTileClick}}>
             {children}
         </Context.Provider>
     )
