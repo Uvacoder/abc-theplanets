@@ -28,3 +28,14 @@
     width: 165px;
     height: auto;
 }
+
+@media screen and (max-width: 900px) {
+    .container {
+        width: 100%;
+        border: 1px solid gold;
+    }
+
+    .hoverContainer {
+        top: 550px;
+    }
+}

@@ -85,3 +85,37 @@ font-family: 'Spartan', sans-serif; */
     padding: 0 1.5rem 0 0;
     letter-spacing: 2px;
 }
+
+@media screen and (max-width: 900px) {
+    .container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        border: 1px solid red;
+    }
+
+    .buttonContainer {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 50%;
+        height: auto;
+        border: 1px solid purple;
+        margin-right: 5%;
+    }
+
+    .infoTextContainer {
+        width: 50%;
+        border: 1px solid orange;
+        padding: 2rem;
+    }
+
+    .button {
+        width: 280px;
+        height: 40px;
+    }
+    
+}

@@ -17,3 +17,13 @@
     align-items: center;
     height: 675px;
 }
+
+@media screen and (max-width: 900px) {
+    .flexContainer {
+        border: 1px solid red;
+        flex-direction: column;
+        height: max-content;
+        padding: 5rem 0;
+        margin-top: 76px;
+    }
+}
