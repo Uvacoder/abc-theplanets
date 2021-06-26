@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/SJellen/planets-fact-site)
-- Live Site URL: [Add live site URL here](https://planets-fact-site-five.vercel.app/)
+- Solution URL: [Live](https://github.com/SJellen/planets-fact-site)
+- Live Site URL: [Code](https://planets-fact-site-five.vercel.app/)
 
 ### Built with
 - Figma
@@ -38,6 +38,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.scottjellen.com)
+- Website - [Scott Jellen](https://www.scottjellen.com)
 
 
