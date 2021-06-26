@@ -67,10 +67,21 @@ font-family: 'Spartan', sans-serif; */
 @media screen and (max-width: 900px) {
     .flexContainer {
         width: 100%;
+        border: 1px solid red;
+        margin-top: -3rem;
     }
 
     .statBox {
-        width: 162px;
+        width: 20%;
+        height: 100px;
+    }
+
+    .statBoxSpan {
+        font-size: .75rem;
+    }
+
+    .statBoxH2 {
+        font-size: 1.75rem;
     }
     
 }

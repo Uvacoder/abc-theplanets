@@ -33,15 +33,17 @@ font-family: 'Spartan', sans-serif; */
 
 .infoTextContainerH3 {
     color: #838391;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 14px;
     padding: 1rem 0;
+    letter-spacing: 1px;
 }
 
 .infoTextContainerSpan {
     color: #838391;
     font-weight: 700;
     text-decoration: underline;
+    margin-left: .5rem;
 }
 
 .svg {
@@ -101,14 +103,14 @@ font-family: 'Spartan', sans-serif; */
         display: flex;
         align-items: flex-end;
         justify-content: center;
-        width: 50%;
+        width: auto;
         height: auto;
         border: 1px solid purple;
         margin-right: 5%;
     }
 
     .infoTextContainer {
-        width: 50%;
+        width: 60%;
         border: 1px solid orange;
         padding: 2rem;
     }
@@ -116,6 +118,29 @@ font-family: 'Spartan', sans-serif; */
     .button {
         width: 280px;
         height: 40px;
+    }
+
+    .buttonTextH4 {
+        font-size: .65rem;
+    }
+    
+    .buttonTextSpan {
+        font-size: .65rem;
+        padding: 0 .5rem 0 0;
+    }
+
+    .infoTextContainerH1 {
+        font-size: 3rem;
+        font-weight: 400;
+
+    }
+
+    .infoTextContainerP {
+        color: white;
+        margin-top: 0;
+        font-weight: 200;
+        font-size: 13px;
+        line-height: 1.75;
     }
     
 }
