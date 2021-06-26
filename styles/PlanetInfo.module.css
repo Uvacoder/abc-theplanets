@@ -96,7 +96,6 @@ font-family: 'Spartan', sans-serif; */
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        border: 1px solid red;
     }
 
     .buttonContainer {
@@ -105,13 +104,11 @@ font-family: 'Spartan', sans-serif; */
         justify-content: center;
         width: auto;
         height: auto;
-        border: 1px solid purple;
         margin-right: 5%;
     }
 
     .infoTextContainer {
         width: 60%;
-        border: 1px solid orange;
         padding: 2rem;
     }
 
@@ -143,4 +140,24 @@ font-family: 'Spartan', sans-serif; */
         line-height: 1.75;
     }
     
+}
+
+@media screen and (max-width: 650px) {
+    .buttonContainer {
+        display: none;
+    }
+
+    .infoTextContainer {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .infoTextContainerP {
+        color: white;
+        font-weight: 300;
+        margin: 0 auto;
+        width: 90%;
+    }
 }

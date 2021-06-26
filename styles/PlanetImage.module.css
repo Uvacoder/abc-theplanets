@@ -9,7 +9,7 @@
 
 .imageFlexContainer {
     display: flex; 
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -32,10 +32,22 @@
 @media screen and (max-width: 900px) {
     .container {
         width: 100%;
-        border: 1px solid gold;
+        height: auto;
+    }
+
+    .imageFlexContainer {
+        justify-content: center;
     }
 
     .hoverContainer {
         top: 550px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .img {
+        width: 50%;
+        height: auto;
     }
 }
