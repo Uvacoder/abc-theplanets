@@ -21,12 +21,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://raw.githubusercontent.com/SJellen/planets-fact-site/main/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/SJellen/planets-fact-site)
+- Live Site URL: [Add live site URL here](https://planets-fact-site-five.vercel.app/)
 
 ### Built with
 - Figma
