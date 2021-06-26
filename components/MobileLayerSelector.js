@@ -10,13 +10,16 @@ export default function MobileLayerSelector() {
         <div className={styles.container}>
             <span 
                 className={styles.span}
+                onClick={handleOverviewClick} 
                 style={{borderBottom: currentLayer === "overview" ? `2px solid ${currentPlanet.highlight}` : '', color: currentLayer === "overview" ? 'white' : ''}}>OVERVIEW</span>
             <span
                 className={styles.span}
+                onClick={handleInternalStructureClick}
                 style={{borderBottom: currentLayer === "internal" ? `2px solid ${currentPlanet.highlight}` : '', color: currentLayer === "internal" ? 'white' : ''}}
             >STRUCTURE</span>
             <span
                 className={styles.span}
+                onClick={handleSurfaceGeologyClick}
                 style={{borderBottom: currentLayer === "surface" ? `2px solid ${currentPlanet.highlight}` : '', color: currentLayer === "surface" ? 'white' : ''}}
             >GEOLOGY</span>
         </div>

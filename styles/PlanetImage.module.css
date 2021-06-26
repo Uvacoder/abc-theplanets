@@ -9,7 +9,7 @@
 
 .imageFlexContainer {
     display: flex; 
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
@@ -32,7 +32,8 @@
 @media screen and (max-width: 900px) {
     .container {
         width: 100%;
-        height: auto;
+        height: 600px;
+        margin-top: -5rem;
     }
 
     .imageFlexContainer {
@@ -45,10 +46,31 @@
 }
 
 @media screen and (max-width: 650px) {
+    .container {
+        margin-top: -2.5rem;
+    }
 
     .img {
-        width: 50%;
+        width: 80%;
         height: auto;
-        padding-top: 3rem;
+    }
+
+    .hoverContainer {
+        top: 450px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        height: 400px;
+    }
+
+    .hoverContainer {
+        top: 380px;
+    }
+
+    .imgHover {
+        width: 100px;
+        height: auto;
     }
 }
