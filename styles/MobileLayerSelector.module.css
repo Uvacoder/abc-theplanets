@@ -1,0 +1,28 @@
+
+.container {
+    display: none;
+    
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        border-bottom: 1px solid rgb(56,56,79);
+        height: auto;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        color: #838391;
+        font-size: .9rem;
+        font-weight: 300;
+    }
+
+    .span {
+        padding: 1rem 0;
+    }
+
+    .span:hover {
+        cursor: pointer;
+    }
+}

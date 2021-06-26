@@ -49,5 +49,6 @@
     .img {
         width: 50%;
         height: auto;
+        padding-top: 3rem;
     }
 }
