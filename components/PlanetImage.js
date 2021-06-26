@@ -5,12 +5,14 @@ import { useContext } from 'react'
 export default function PlanetImage() {
 
     const {currentPlanet, currentLayer} = useContext(Context)
+    /* eslint-disable @next/next/no-img-element */
 
     return (
         <div className={styles.container}>
             <div className={styles.imageFlexContainer}>
                 {
                     currentLayer === "internal" ?
+                    
                     <img src={`public/.${currentPlanet.images.internal}`} alt={`${currentPlanet.name} image`} className={styles.img}  /> :
                     <img src={`public/.${currentPlanet.images.planet}`} alt={`${currentPlanet.name} image`} className={styles.img}  />  
                 }
